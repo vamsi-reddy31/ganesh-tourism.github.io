@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+      .adjust{margin-top: 7%;}
+
+   
+      /* footer section*/
+      #footer{ padding:7% 15%; 
+                text-align:center;
+             }
+     .social-icon{ margin:10px 10px;}
+     /*navigation*/
+          #rmove{margin-left: auto;}
+      /*pricing*/
+      .resize{margin:7% 0 0 0 ;}
+      @media (max-width:900px){
+        carousel height:1 00%;
+      }
+    </style>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <!--navigation-->
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tourism</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#vamsi" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#vamsi">local tourism</a></li>
+                  <li><a class="dropdown-item" href="#vamsi">states tourism</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#vamsi">foreign tourism</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    >
+      <!--background-img
+      <div  style="background-color: rgb(133, 124, 155); height:900px;">
+        <img src="tourism1.jpg">
+        </div>
+     
+      <div class="bg-image text-center pt-5" 
+      style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+             height: 100vh">
+             <div class="container">
+             <h1 class="mb-3 h2">welcome to AP Tourism</h1>
+
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum neque maiores dolorem unde? Aut dolorum quod excepturi fugit.</p>
+            </div>
+       </div>
+        -->
+         <!--carousel1-->
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active"  style="background-color: aqua; height:900px;">
+            <img src="https://images.unsplash.com/photo-1519922639192-e73293ca430e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>welcome to tourism campanion</h1>
+              <p></p>“I am not a great book, I am not a great artist, but I love art and I love food, so I am the perfect traveller.” – Michael Palin
+            </div>
+          </div>
+          <div class="carousel-item "  style="background-color: rgb(133, 124, 155); height:900px;">
+            <img src="https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>life is either daring adventure or nothing at all</h1>
+              <p>The world is a book and those who do not travel read only one page,life is either daring adventure or nothing at all</p>
+            </div>
+          </div>
+          <div class="carousel-item"  style="background-color: rgb(136, 175, 44); height:900px;">
+            <img src="https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>the world is like a book and those who learn only one page knows one mindset</h1>
+              <p>Travel is  fatal to prejudice, bigotry, and narrow mindedness, and many of our people need it sorely on these accounts</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+             <!--pricing-->
+     <div class="resize" id="vamsi"> 
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>free for 1st visit</li>
+                  <li>limited time access</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/year</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>one months pack</li>
+                  <li>general coach support</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-white bg-primary border-primary">
+                <h4 class="my-0 fw-normal">life Time</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/life</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>full time access</li>
+                  <li>special care from masters</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!--features-->
+      <div class="bg-info p-2 text-dark bg-opacity-50">
+      <section class="py-5 text-center container ">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Album example</h1>
+            <p class="lead text-muted"> The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion</p>
+            <p>
+              <a href="#" class="btn btn-primary my-2">Indian tourism</a>
+              <a href="#" class="btn btn-secondary my-2">others</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- features-->
+  
+   
+<!--tourism-->
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 ml-3">
+          <h2 class="featurette-heading">Boats on Naini Lake in Kumaon <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Nainital is a Himalayan resort town in the Kumaon region of India’s Uttarakhand state, at an elevation of roughly 2,000m. It is set around Nainital Lake, a popular boating site with Naina Devi Hindu Temple on its north shore. The beautiful lake resort town nestles amidst seven hills in a lush valley at an altitude of 1938 meters.Nainital, also known as Naini Lake, is a natural freshwater body, situated amidst the township of Nainital in Kumaon. It is tectonic in origin and is kidney shaped or crescent shaped and has an outfall at the southeastern end. Nainital, along with other lakes of Kumaon, is integral to tourism and recreation in Kumaon.</p>
+          <button type="button" class="btn btn-primary btn-lg">Visit</button>
+          <button type="button" class="btn btn-secondary btn-lg">Book hotel</button>
+       </div>
+        <div class="col-md-5">
+
+            <img   width="500" height="500"  role="img" src="https://upload.wikimedia.org/wikipedia/commons/3/36/A_view_of_Nainital_lake_with_the_morning_mist.jpg">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Tso Moriri in Ladakh <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Tso Moriri is approximately 29 kilometers long and up to 8 kilometers wide. Tso Moriri attracts a range of wildlife, including migratory birds, marmots and rarely the Tibetan wolves. Tso Moriri lake in Changthang region of Ladakh is one of the most beautiful, calm and sacred (for ladakhis) high altitude lakes in India.In January to March, Tso Moriri remains mostly frozen, extremely cold conditions with no options to stay around the lake. In April types, it starts to melt and starts transforming into the beautiful multi shades of blue colors off the shores</p>
+          <button type="button" class="btn btn-primary btn-lg">Visit</button>
+          <button type="button" class="btn btn-secondary btn-lg">Book hotel</button>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img   width="500" height="500"  role="img" src="https://upload.wikimedia.org/wikipedia/commons/6/65/Karakoram-West_Tibetan_Plateau_alpine_steppe.jpg">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Land. The Maldive Islands are a series of coral atolls built up from the crowns of a submerged ancient volcanic mountain range. All the islands are low-lying, none rising to more than 6 feet (1.8 metres) above sea level. Barrier reefs protect the islands from the destructive effects of monsoons The Maldives consists of 1,190 coral islands grouped in a double chain of twenty-seven atolls situated in the Indian Ocean. Most atolls consist of a large, ring-shaped coral reef supporting numerous small islands.
+
+            The country covers an area approximately 90,000 square kilometres, of which only 298 square kilometres is dry land. The islands are of average one to two square kilometres in area, and no individual island is longer than eight kilometres. The Maldives lies between 1-1.5 meters above sea level, with the highest island situated at 3 meters above sea level.</p>
+          <button type="button" class="btn btn-primary btn-lg">Visit</button>
+          <button type="button" class="btn btn-secondary btn-lg">Book hotel</button>
+        </div>
+        <div class="col-md-5">
+          <img   width="500" height="500"  role="img" src="https://images.unsplash.com/photo-1619120238346-978e07731e77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80">
+        </div>
+      </div>
+      <!--fdeveloper class-->
+      <div class="bg-info p-2 text-dark bg-opacity-50">
+      <div class="adjust">
+        <div class="container marketing">
+        <div class="row">
+         <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140"  src="bb.jpeg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+           <h2>ganesh</h2>
+           <p>i am the junior developer and i have developed this web page for commercial purpose </p>
+           <p><a class="btn btn-secondary" href="https://www.instagram.com/a.ganeshkumarreddy/" role="button">View details &raquo;</a></p>
+         </div><!-- /.col-lg-4 -->
+         <div class="col-lg-4">
+           <img class="bd-placeholder-img rounded-circle" width="140" height="140"  src="cc.jpeg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+           <h2>Dinesh max</h2>
+           <p>i am dinesh max working as junior developer in annamcharya college contact me for any website development</p>
+           <p><a class="btn btn-secondary" href="https://www.instagram.com/dinesh_kumar51862/" role="button">View details &raquo;</a></p>
+         </div><!-- /.col-lg-4 -->
+         <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140"  src="pp.jfif" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+           <h2>vamsi vamsi</h2>
+           <p>i am vamsi persuing btech ,present working as as junior developer  contact in my instagram for any web development queries</p>
+           <p><a class="btn btn-secondary" href="https://www.instagram.com/i_am_vamsi1/" role="button">View details &raquo;</a></p>
+         </div><!-- /.col-lg-4 -->
+       </div><!-- /.row -->
+        </div>
+    </div>
+        <!-- footer-->
+        <div class="bg-white">         
+          <footer id="footer">
+             <a href=" https://www.facebook.com/j.vamsivardanreddy.5/"> <i class=" social-icon fab fa-facebook"></i></a> 
+             <a href="https://www.instagram.com/i_am_vamsi1/">  <i class=" social-icon fab fa-instagram"></i></a> 
+            <a href="https://media.twitter.com/en/articles/how-to/2021/how-to-use-twitter-spaces?gclid=EAIaIQobChMImsHz9M309AIVwyFgCh0EegBWEAAYASAAEgI-qPD_BwE"> <i class=" social-icon fab fa-twitter"></i></a> 
+            <a href="">  <i class=" social-icon fas fa-envelope-square"></i></a> 
+            <p> @Copyright 2021 Body building</p>
+         </footer> 
+        </div>
+    
+      <hr class="featurette-divider">
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
